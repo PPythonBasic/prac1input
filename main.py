@@ -8,9 +8,21 @@
 """
 
 ## input width
-
+width = int(input("Enter your width : "))
 
 ## input height
+height = int(input("Enter your width : "))
+
+result = width + height
 
 
 ## print
+print(
+    "ผลลัพธ์ของ width ",
+    width,
+    "ซม และ ผลลัพธ์ของ height ",
+    height,
+    "ซม คือ sum",
+    result,
+    "ซม",
+)
